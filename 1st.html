@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TuteDude – Learn Smart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; }
+        header, footer { background: #0a0000; color: #fff; padding: 20px; }
+        nav a { color: #fff; margin-right: 15px; text-decoration: none; }
+        main { padding: 20px; }
+        section { margin-bottom: 40px; }
+        table { border-collapse: collapse; width: 100%; }
+        table, th, td { border: 1px solid #444; padding: 8px; }
+        figure { text-align: center; }
+        figcaption { font-style: italic; }
+        aside { background: #f4f4f4; padding: 15px; }
+        fieldset { margin-top: 20px; }
+        footer address { font-style: normal; }
+    </style>
+</head>
+
+<body>
+
+<-Header->
+<header>
+    <h1>Welcome to <mark>TuteDude</mark></h1>
+    <p>
+        A platform to <em>learn smarter</em> and 
+        <strong>build real-world skills</strong> efficiently.
+    </p>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#menu">Courses</a>
+        <a href="#trivia">Trivia</a>
+        <a href="#extras">Extras</a>
+        <a href="#feedback">Feedback</a>
+    </nav>
+
+    <figure>
+        <img src="images.jpeg" alt="TuteDude Learning Platform">
+        <figcaption>Empowering learners worldwide</figcaption>
+    </figure>
+</header>
+
+<main>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <article>
+            <h2>About TuteDude</h2>
+            <p>
+                <strong>TuteDude</strong> is an online learning platform launched in 
+                <time datetime="2020">2020</time>.  
+                It focuses on affordable education for students in 
+                <abbr title="Science, Technology, Engineering, Mathematics">STEM</abbr> 
+                and professional skills.
+            </p>
+
+            <blockquote>
+                "Education is the most powerful weapon which you can use to change the world."
+                <cite>– Nelson Mandela</cite>
+            </blockquote>
+        </article>
+    </section>
+
+    <section id="menu">
+        <h2>Popular Courses</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Course Name</th>
+                    <th>Duration</th>
+                    <th>Fee (₹)</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Web Development</td>
+                    <td>3 Months</td>
+                    <td>999</td>
+                    <td>
+                        <table>
+                            <tr><td>HTML</td><td>CSS</td></tr>
+                            <tr><td>JavaScript</td><td>Projects</td></tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Data Science</td>
+                    <td>4 Months</td>
+                    <td>1499</td>
+                    <td>
+                        <table>
+                            <tr><td>Python</td><td>Pandas</td></tr>
+                            <tr><td>ML Basics</td><td>Case Studies</td></tr>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="4">Affordable learning for everyone</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+
+    <section id="trivia">
+        <h2>Did You Know?</h2>
+
+        <aside>
+            <details>
+                <summary>Interesting Fact</summary>
+                <p>
+                    TuteDude allows students to pay course fees using 
+                    internships and skill-based tasks instead of money.
+                </p>
+            </details>
+        </aside>
+    </section>
+
+    <section id="extras">
+        <h2>Learning Extras</h2>
+
+        <h3>Audio Introduction</h3>
+        <audio controls>
+            <source src="sample-audio.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
+
+        <h3>Video Overview</h3>
+        <video controls width="400">
+            <source src="sample-video.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+    </section>
+
+
+    <section id="feedback">
+        <h2>Feedback Form</h2>
+
+        <form>
+            <fieldset>
+                <legend>User Feedback</legend>
+
+                <label>Name:</label><br>
+                <input type="text" name="name" required><br><br>
+
+                <label>Email:</label><br>
+                <input type="email" name="email" required><br><br>
+
+                <label>Course Interested:</label><br>
+                <select>
+                    <option>Web Development</option>
+                    <option>Data Science</option>
+                    <option>Cyber Security</option>
+                </select><br><br>
+
+                <label>Your Feedback:</label><br>
+                <textarea rows="4" cols="40"></textarea><br><br>
+
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </section>
+
+</main>
+
+
+<footer>
+    <address>
+        Contact us at:  
+        <a href="mailto:support@tutedude.com">support@tutedude.com</a><br>
+        Phone: +91-90000-00000
+    </address>
+
+    <p>
+        © <time datetime="2026">2026</time> TuteDude. All Rights Reserved.
+    </p>
+</footer>
+
+</body>
+</html>
